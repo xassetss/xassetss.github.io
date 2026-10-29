@@ -79,7 +79,8 @@
       ],
       "ctaTitle": "Your next great read awaits.",
       "ctaDescription": "Discover classic literature and enjoy reading wherever you go."
-    }
+    },
+    "privacyPolicyUrl": "privacy/literary-room/"
   },
   {
     "id": "lullaby-room",
@@ -169,7 +170,9 @@
       "screenshotsDescription": "Explore the Lullaby Room experience.",
       "ctaTitle": "Make tonight a little softer.",
       "ctaDescription": "Explore gentle sounds and lullabies with Lullaby Room."
-    }
+    },
+    "privacyPolicyUrl": "privacy/lullaby-room/",
+    "termsOfUseUrl": "terms/lullaby-room/"
   },
   {
     "id": "resonance-room",
@@ -258,7 +261,9 @@
       "screenshotsDescription": "Explore the Resonance Room experience.",
       "ctaTitle": "Find your moment of calm.",
       "ctaDescription": "Discover Resonance Room on Google Play."
-    }
+    },
+    "privacyPolicyUrl": "privacy/resonance-room/",
+    "termsOfUseUrl": "terms/resonance-room/"
   },
   {
     "id": "coloring-book",
@@ -348,7 +353,8 @@
       "ctaTitle": "Let a little creativity begin.",
       "ctaDescription": "Explore Coloring Book & Learn on the App Store.",
       "screenshotLayout": "landscape"
-    }
+    },
+    "privacyPolicyUrl": null
   },
   {
     "id": "sach-hay",
@@ -440,6 +446,7 @@
       "screenshotPending": "Ảnh màn hình sẽ được bổ sung",
       "featuresEyebrow": "CẢM HỨNG MỖI NGÀY",
       "galleryLabel": "Ảnh màn hình ứng dụng, cuộn ngang"
-    }
+    },
+    "privacyPolicyUrl": null
   }
 ]

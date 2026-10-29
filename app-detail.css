@@ -6,3 +6,7 @@
 .app-detail__screenshots--landscape .app-detail__screenshot{flex-basis:calc((100% - 20px)/2)}
 .app-detail__screenshots--landscape .app-detail__screen-frame{aspect-ratio:2688/1242;border-radius:14px}
 @media(max-width:850px){.app-detail__screenshots--landscape .app-detail__screenshot{flex-basis:88%}}
+
+.app-detail__legal{text-align:center;margin:26px 0 0;font-size:13px;color:#6e5ca0}.app-detail__legal a{text-decoration:underline;text-underline-offset:4px}
+
+.app-detail__legal{display:flex;justify-content:center;gap:20px;flex-wrap:wrap}.app-detail__legal a{padding:12px 0}

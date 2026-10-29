@@ -34,6 +34,27 @@ function renderDetail(app) {
  <section class="app-detail__section" aria-labelledby="features-title"><div class="eyebrow">${escapeHTML(d.featuresEyebrow || 'MADE FOR YOUR EVERYDAY')}</div><h2 id="features-title">${escapeHTML(d.featuresTitle || 'Little details. Better reading.')}</h2><div class="app-detail__features">${d.features.map(f=>`<article class="app-detail__feature">${svg(f.icon)}<h3>${escapeHTML(f.title)}</h3><p>${escapeHTML(f.description)}</p></article>`).join('')}</div></section>
  <section class="app-detail__section" aria-labelledby="screenshots-title"><h2 id="screenshots-title">${escapeHTML(d.screenshotsTitle || 'A closer look')}</h2><p>${escapeHTML(d.screenshotsDescription || `Explore the ${app.name} reading experience.`)}</p><div class="app-detail__screenshots ${d.screenshotLayout === 'landscape' ? 'app-detail__screenshots--landscape' : ''}" tabindex="0" role="region" aria-label="${escapeHTML(d.galleryLabel || 'App screenshots, scroll horizontally')}">${shots.map(s=>`<figure class="app-detail__screenshot">${s.src ? `<div class="app-detail__screen-frame"><img src="${escapeHTML(localAsset(s.src))}" alt="${escapeHTML(s.alt || s.label)}" width="${s.width || 1170}" height="${s.height || 2532}" loading="lazy"></div><figcaption>${escapeHTML(s.label)}</figcaption>` : screenshotFrame(s.label, d.screenshotPending)}</figure>`).join('')}</div></section>
  <section class="app-detail__section app-detail__cta" aria-labelledby="download-title"><h2 id="download-title">${escapeHTML(d.ctaTitle)}</h2><p>${escapeHTML(d.ctaDescription)}</p>${downloadLinks(app,true)}</section>`;
+ // Configure only developer-supplied or approved legal documents.
+ const legal = document.createElement('nav');
+ legal.className = 'app-detail__legal';
+ legal.setAttribute('aria-label', 'Legal information');
+ for (const [url, label] of [
+  [app.privacyPolicyUrl, document.documentElement.lang === 'vi' ? 'Chính sách quyền riêng tư' : 'Privacy Policy'],
+  [app.termsOfUseUrl, document.documentElement.lang === 'vi' ? 'Điều khoản sử dụng' : 'Terms of Use']
+ ]) {
+  if (!url) continue;
+  const destination = new URL(url, siteRoot);
+  if (destination.protocol !== 'https:' && destination.origin !== siteRoot.origin) continue;
+  const link = document.createElement('a');
+  link.href = destination.href;
+  link.textContent = label;
+  if (destination.origin !== siteRoot.origin) {
+   link.target = '_blank';
+   link.rel = 'noopener noreferrer';
+  }
+  legal.append(link);
+ }
+ if (legal.childElementCount) detailRoot.append(legal);
  detailRoot.querySelectorAll('img').forEach(img => {
   const showFallback = () => {
    const fallback = document.createElement('div');

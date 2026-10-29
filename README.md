@@ -33,7 +33,7 @@ All five official 512 × 512 PNG icons are stored in `assets/icons/`. Four were 
 ## Important launch notes
 
 - Resonance Room App Store link is intentionally hidden until it is approved.
-- Privacy/terms and individual app detail pages are not included in V1; don't add dead links.
+- All five app detail pages are implemented. Privacy policy architecture is prepared; approved policy content is still pending. Do not add dead legal links.
 - Store links are provided by the owner. Check links in the target region before launch.
 - Email contact currently uses `xassets.info@gmail.com` and can be changed.
 - Google Fonts are used; fallback fonts work without network.
@@ -87,3 +87,58 @@ Lullaby Room now includes five developer-supplied screenshots (home, player, tim
 | `sach-hay` (supplied) | `home.webp`, `book-detail.webp`, `reader.webp`, `highlight.webp`, `library.webp` |
 
 These subjects are suggestions for supplied assets, not product feature claims. Pending galleries request no nonexistent files. Add the real screenshots to the app’s `detail.screenshots` array, matching labels and alt text to the actual screens. All four social previews reuse the complete existing banners; optional 1200 × 630 compositions may be supplied later for precise social framing.
+
+## Privacy Policy System V1
+
+Lullaby Room Privacy Policy and Terms of Use have been imported from the existing developer-supplied documents on 2026-10-29. The original effective date (October 23, 2026), introduction and full section contents are preserved. Literary Room Privacy Policy has also been imported from its developer-supplied source. Coloring Book & Learn and Sách Hay still require approved policy content. Resonance Room legal documents are imported as described below. These repository changes have not been deployed.
+
+Files:
+
+- `templates/privacy.html.template`: reusable source template, not a published HTML entry point. It contains substitution tokens, no legal declarations. Policies are rendered as complete static HTML for store reviewers and crawlers; JavaScript is not required.
+- `privacy.css`: document layout scoped to privacy pages, reusing the existing design tokens and shared header/footer. The 850px outer container with existing 36px side padding provides a 778px reading area.
+- `data/apps.json`: optional `privacyPolicyUrl`, configured for Lullaby Room and Literary Room; null for the other apps; separate from policy text.
+- `app-detail.js` / `app-detail.css`: render an optional legal link only when a policy URL is explicitly configured; external HTTPS links open with `noopener noreferrer`. Existing marketing sections remain unchanged.
+
+### Planned policy routes and status
+
+| App | Future URL | Status |
+| --- | --- | --- |
+| Literary Room | `https://xassetss.github.io/privacy/literary-room/` | Imported from developer-supplied source |
+| Lullaby Room | `https://xassetss.github.io/privacy/lullaby-room/` | Imported from developer-supplied source |
+| Resonance Room | `https://xassetss.github.io/privacy/resonance-room/` | Imported from developer-supplied source |
+| Coloring Book & Learn | `https://xassetss.github.io/privacy/coloring-book/` | Approved content required |
+| Sách Hay | `https://xassetss.github.io/privacy/sach-hay/` | Approved content required |
+
+### Prepare and publish an approved policy
+
+1. Obtain the exact approved text, language, app identity and effective/last-updated date. Ask for any existing policy URLs already registered in App Store Connect or Google Play Console; none were found locally. Preserve those URLs until an approved replacement is ready. The repository cannot establish the store console settings.
+2. Keep policy text independent of `data/apps.json`. Use `templates/privacy.html.template` to author a fully static `privacy/<app-slug>/index.html` **only after content approval**. Do not create empty public policy routes or publish the template as an index page.
+3. Replace every token: `LANG`, `APP_NAME_HTML`, `APP_SLUG`, `META_DESCRIPTION_HTML`, `UPDATED_ISO` (YYYY-MM-DD), `UPDATED_DISPLAY_HTML`, `COPYRIGHT_YEAR`, and `APPROVED_POLICY_SECTIONS_HTML`. Escape text/attribute values as HTML; use trusted, reviewed semantic HTML for the policy sections. No tokens should remain. Adjust the navigation labels for the approved language when appropriate.
+4. Use one h1 already supplied by the template, h2 section headings and optional h3 subsections. Add only the approved, applicable sections. Include approved contact information using `mailto:xassets.info@gmail.com` where specified. The shared header/footer already use this contact address. Use `rel="noopener noreferrer"` for any external links opening in a new tab.
+5. Review the complete text and static HTML, metadata, dates, mobile/desktop layout, keyboard navigation, direct route/refresh, asset paths and contact links. Check policy content with JavaScript disabled. Then set that app's `privacyPolicyUrl` to `privacy/<app-slug>/` or the preserved approved external HTTPS URL. Do not change console URLs or existing links automatically.
+6. Deploy final policy pages only after explicit content approval. No build step or backend is needed.
+
+### Information required before publication
+
+For **each app separately**, supply approved policy text and any existing registered policy URL. Confirm actual data collected/processed, purpose and recipients, local storage, SDK/service names and their policy URLs, advertising/tracking and consent, purchases, retention/deletion procedures, children's audience and safeguards if applicable, security, international processing/privacy rights and request procedures, policy-change wording, responsible developer identity, contact information, language, and last-updated date. Include only topics that apply to that app. No common SDK list, “no personal data” statement, legal basis or jurisdiction is assumed.
+
+
+### Lullaby Room legal documents
+
+- `privacy/lullaby-room/index.html`: full static Privacy Policy, canonical `/privacy/lullaby-room/`.
+- `terms/lullaby-room/index.html`: full static Terms of Use, canonical `/terms/lullaby-room/`.
+- Both reuse `privacy.css`, shared branding and contact address. Their text is readable without JavaScript. Related-document links point internally. The App Detail legal navigation supports `privacyPolicyUrl` and `termsOfUseUrl` independently.
+- Source documents supplied by the developer: [Privacy Policy](https://sunshinesing.github.io/lullaby-room-privacy-policy.html) and [Terms of Use](https://sunshinesing.github.io/lullaby-room-terms-of-use.html). Source URLs are recorded here for provenance only; app navigation uses the copied local pages. No store console URLs were changed.
+- Imported policy section HTML is preserved verbatim. Only surrounding presentation, metadata and navigation are adapted. The source calls its date “Effective date”, so it remains labeled that way instead of inventing a new last-updated date.
+
+
+### Literary Room Privacy Policy
+
+`privacy/literary-room/index.html` imports the full introduction and all 12 sections from the [developer-supplied policy](https://api.tiemsach.io.vn/policy), preserving the effective and last-updated date of October 1, 2026. Content is static and readable without JavaScript. App navigation uses `privacy/literary-room/`, not the source URL. Source wording refers to Android/Google Play; it is preserved without inventing iOS-specific declarations. No Terms of Use document was supplied for Literary Room, so no terms link is shown for it. Contact remains available in the shared xAssets header/footer.
+
+
+### Resonance Room legal documents
+
+Imported [Privacy Policy](https://sunshinesing.github.io/resonance_room_privacy_policy.html) and [Terms of Use](https://sunshinesing.github.io/resonance_room_terms_of_use.html) into `privacy/resonance-room/index.html` and `terms/resonance-room/index.html`. Full source content and effective date October 19, 2026 are retained in static HTML. The terms' relative policy link is repaired to the local policy route; the now-resolved deployment instruction to update that link is removed. App Detail links point internally and store console URLs are untouched.
+
+Source issue requiring developer attention: Terms section 12 still states that the developer's legal jurisdiction should be confirmed before publication. This wording is preserved, with no jurisdiction invented. The privacy source also uses conditional wording about analytics/diagnostic integrations; no SDK declarations are added or inferred. Shared site contact is `xassets.info@gmail.com`. Changes have not been deployed.
