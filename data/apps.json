@@ -11,7 +11,75 @@
     "banner": "assets/banners/literary-room.webp",
     "bannerAvailable": true,
     "icon": "assets/icons/literary-room.png",
-    "iconAvailable": true
+    "iconAvailable": true,
+    "slug": "literary-room",
+    "detailUrl": "apps/literary-room/",
+    "tagline": "Classic Books Worth Reading",
+    "introduction": "Discover timeless literature and enjoy a beautiful, distraction-free reading experience.",
+    "detail": {
+      "eyebrow": "THE EXPERIENCE",
+      "headline": "A world of timeless stories.",
+      "description": [
+        "Literary Room brings classic literature into a calm, modern reading experience. Explore memorable novels, discover remarkable authors, and build a personal collection of books worth reading.",
+        "Enjoy timeless stories at your own pace, whether you’re relaxing at home or reading on the go."
+      ],
+      "features": [
+        {
+          "icon": "book-open",
+          "title": "Discover Timeless Classics",
+          "description": "Explore a curated collection of classic novels and unforgettable stories from renowned authors."
+        },
+        {
+          "icon": "book-text",
+          "title": "Read Your Way",
+          "description": "Enjoy a comfortable reading experience with adjustable text settings and offline access to downloaded books."
+        },
+        {
+          "icon": "bookmark",
+          "title": "Build Your Library",
+          "description": "Save favorite books, organize your reading collection, and continue where you left off."
+        }
+      ],
+      "screenshots": [
+        {
+          "src": "assets/screenshots/literary-room/home.webp",
+          "label": "Discover Classic Books",
+          "alt": "Literary Room home screen showing classic book categories and new releases.",
+          "width": 856,
+          "height": 1852
+        },
+        {
+          "src": "assets/screenshots/literary-room/book-detail.webp",
+          "label": "Find Your Next Great Read",
+          "alt": "Pride and Prejudice book details with description and download button.",
+          "width": 856,
+          "height": 1852
+        },
+        {
+          "src": "assets/screenshots/literary-room/reader.webp",
+          "label": "A Beautiful Place to Read",
+          "alt": "Literary Room reader with font, spacing, brightness and theme controls.",
+          "width": 856,
+          "height": 1852
+        },
+        {
+          "src": "assets/screenshots/literary-room/library.webp",
+          "label": "Read at Your Own Pace",
+          "alt": "Personal library showing current books and reading progress.",
+          "width": 856,
+          "height": 1852
+        },
+        {
+          "src": "assets/screenshots/literary-room/reminder.webp",
+          "label": "Your Books, Always With You",
+          "alt": "Daily reading reminder with an adjustable notification time.",
+          "width": 856,
+          "height": 1852
+        }
+      ],
+      "ctaTitle": "Your next great read awaits.",
+      "ctaDescription": "Discover classic literature and enjoy reading wherever you go."
+    }
   },
   {
     "id": "lullaby-room",
@@ -25,7 +93,83 @@
     "banner": "assets/banners/lullaby-room.webp",
     "bannerAvailable": true,
     "icon": "assets/icons/lullaby-room.png",
-    "iconAvailable": true
+    "iconAvailable": true,
+    "slug": "lullaby-room",
+    "detailUrl": "apps/lullaby-room/",
+    "tagline": "Gentle Sounds for Little Nights",
+    "introduction": "Make room for a softer bedtime with gentle sounds and soothing lullabies.",
+    "detail": {
+      "eyebrow": "THE EXPERIENCE",
+      "headline": "A gentle companion to bedtime.",
+      "description": [
+        "Lullaby Room brings soothing sounds and lullabies together in a cozy space for families.",
+        "From quiet evenings to little moments of rest, find a gentle soundtrack for your bedtime routine."
+      ],
+      "featuresTitle": "Small comforts for little nights.",
+      "features": [
+        {
+          "icon": "moon",
+          "title": "Soothing Lullabies",
+          "description": "Explore gentle melodies for the quieter moments of your day."
+        },
+        {
+          "icon": "sound",
+          "title": "Gentle Sounds",
+          "description": "Bring a soft soundscape to your family’s bedtime routine."
+        },
+        {
+          "icon": "heart",
+          "title": "Made for Family Moments",
+          "description": "A cozy companion for winding down together."
+        }
+      ],
+      "screenshots": [
+        {
+          "src": "assets/screenshots/lullaby-room/home.webp",
+          "label": "A Gentle Place for Baby Sleep",
+          "alt": "Lullaby Room home with white noise, nature sounds, lullabies and classical music.",
+          "width": 852,
+          "height": 1852
+        },
+        {
+          "src": "assets/screenshots/lullaby-room/player.webp",
+          "label": "Soothing Sounds, Beautifully Simple",
+          "alt": "Hush Little Baby playback screen with timer and mix controls.",
+          "width": 852,
+          "height": 1852
+        },
+        {
+          "src": "assets/screenshots/lullaby-room/timer.webp",
+          "label": "Set a Timer. Rest Easy.",
+          "alt": "Sleep timer with duration options from 15 minutes to two hours.",
+          "width": 852,
+          "height": 1852
+        },
+        {
+          "src": "assets/screenshots/lullaby-room/mix.webp",
+          "label": "Create Your Own Sleep Mixes",
+          "alt": "Sleep mix combining three sounds with separate volume controls.",
+          "width": 852,
+          "height": 1852
+        },
+        {
+          "src": "assets/screenshots/lullaby-room/library.webp",
+          "label": "Your Little Sleep Library",
+          "alt": "Lullaby Room library showing favorites, saved mixes and recently played sounds.",
+          "width": 852,
+          "height": 1852
+        }
+      ],
+      "screenshotSubjects": [
+        "Lullaby collection",
+        "Sound selection",
+        "Playback"
+      ],
+      "screenshotsTitle": "A closer look",
+      "screenshotsDescription": "Explore the Lullaby Room experience.",
+      "ctaTitle": "Make tonight a little softer.",
+      "ctaDescription": "Explore gentle sounds and lullabies with Lullaby Room."
+    }
   },
   {
     "id": "resonance-room",
@@ -38,7 +182,83 @@
     "banner": "assets/banners/resonance-room.webp",
     "bannerAvailable": true,
     "icon": "assets/icons/resonance-room.png",
-    "iconAvailable": true
+    "iconAvailable": true,
+    "slug": "resonance-room",
+    "detailUrl": "apps/resonance-room/",
+    "tagline": "A Little Space for Calm",
+    "introduction": "Find a quiet soundtrack for rest, relaxation and moments of focus.",
+    "detail": {
+      "eyebrow": "THE EXPERIENCE",
+      "headline": "Less noise. A little more stillness.",
+      "description": [
+        "Resonance Room brings calming sounds into a space designed for rest and focus.",
+        "Take a quiet pause, settle into your surroundings, or add a gentle soundtrack to everyday tasks."
+      ],
+      "featuresTitle": "Space for your own rhythm.",
+      "features": [
+        {
+          "icon": "sound",
+          "title": "Calming Sounds",
+          "description": "Explore a gentle soundscape for quiet moments."
+        },
+        {
+          "icon": "moon",
+          "title": "Time to Unwind",
+          "description": "Make space for a pause at the end of a busy day."
+        },
+        {
+          "icon": "sun",
+          "title": "Moments of Focus",
+          "description": "Bring a calm atmosphere to reading, working or creating."
+        }
+      ],
+      "screenshots": [
+        {
+          "src": "assets/screenshots/resonance-room/home.webp",
+          "label": "Your Sound Sanctuary",
+          "alt": "Resonance Room sound collection showing Daily Balance and other sound experiences.",
+          "width": 854,
+          "height": 1852
+        },
+        {
+          "src": "assets/screenshots/resonance-room/sound-detail.webp",
+          "label": "A Moment of Balance",
+          "alt": "Daily Balance sound details with a resume button and listening suggestions.",
+          "width": 854,
+          "height": 1852
+        },
+        {
+          "src": "assets/screenshots/resonance-room/player.webp",
+          "label": "Just Listen. Unwind.",
+          "alt": "Daily Balance player with playback progress, sleep timer and audio output controls.",
+          "width": 854,
+          "height": 1852
+        },
+        {
+          "src": "assets/screenshots/resonance-room/timer.webp",
+          "label": "Rest on Your Schedule",
+          "alt": "Resonance Room sleep timer with duration options from 15 to 90 minutes.",
+          "width": 854,
+          "height": 1852
+        },
+        {
+          "src": "assets/screenshots/resonance-room/welcome.webp",
+          "label": "Find Your Moment of Calm",
+          "alt": "Resonance Room welcome screen with a Begin Listening button.",
+          "width": 854,
+          "height": 1852
+        }
+      ],
+      "screenshotSubjects": [
+        "Sound collection",
+        "Sound selection",
+        "Playback"
+      ],
+      "screenshotsTitle": "A closer look",
+      "screenshotsDescription": "Explore the Resonance Room experience.",
+      "ctaTitle": "Find your moment of calm.",
+      "ctaDescription": "Discover Resonance Room on Google Play."
+    }
   },
   {
     "id": "coloring-book",
@@ -51,7 +271,84 @@
     "banner": "assets/banners/coloring-book.webp",
     "bannerAvailable": true,
     "icon": "assets/icons/coloring-book.png",
-    "iconAvailable": true
+    "iconAvailable": true,
+    "slug": "coloring-book",
+    "detailUrl": "apps/coloring-book/",
+    "tagline": "Little Colors. Big Imagination.",
+    "introduction": "A playful space for children to explore colors and enjoy creative discovery.",
+    "detail": {
+      "eyebrow": "THE EXPERIENCE",
+      "headline": "A little color goes a long way.",
+      "description": [
+        "Coloring Book & Learn invites children into a playful world of color and imagination.",
+        "Make room for creative moments, curious exploration and the simple joy of coloring."
+      ],
+      "featuresTitle": "Made for curious little creators.",
+      "features": [
+        {
+          "icon": "palette",
+          "title": "Explore Colors",
+          "description": "Discover the joy of choosing and combining colors."
+        },
+        {
+          "icon": "sun",
+          "title": "Make Room for Imagination",
+          "description": "Encourage playful expression through coloring."
+        },
+        {
+          "icon": "heart",
+          "title": "Creative Little Moments",
+          "description": "Enjoy an approachable space for children’s creativity."
+        }
+      ],
+      "screenshots": [
+        {
+          "src": "assets/screenshots/coloring-book/elephant.webp",
+          "label": "Explore Colors",
+          "alt": "Elephant coloring page with a color palette and drawing tools.",
+          "width": 1600,
+          "height": 739
+        },
+        {
+          "src": "assets/screenshots/coloring-book/airplane.webp",
+          "label": "Create Something Playful",
+          "alt": "Airplane coloring page with drawing tools and a color palette.",
+          "width": 1600,
+          "height": 739
+        },
+        {
+          "src": "assets/screenshots/coloring-book/numbers.webp",
+          "label": "Learn Through Color",
+          "alt": "Number five and mushroom coloring activity.",
+          "width": 1600,
+          "height": 739
+        },
+        {
+          "src": "assets/screenshots/coloring-book/collections.webp",
+          "label": "Choose a Collection",
+          "alt": "Coloring collections featuring animals, shapes and marine life.",
+          "width": 1600,
+          "height": 739
+        },
+        {
+          "src": "assets/screenshots/coloring-book/drawings.webp",
+          "label": "Choose a Drawing",
+          "alt": "Animal drawing selection with dog, mouse, bull, cat, pig and sheep outlines.",
+          "width": 1600,
+          "height": 739
+        }
+      ],
+      "screenshotSubjects": [
+        "Coloring collection",
+        "Coloring page",
+        "Color selection"
+      ],
+      "screenshotsTitle": "A closer look",
+      "screenshotsDescription": "Explore the Coloring Book & Learn experience.",
+      "ctaTitle": "Let a little creativity begin.",
+      "ctaDescription": "Explore Coloring Book & Learn on the App Store.",
+      "screenshotLayout": "landscape"
+    }
   },
   {
     "id": "sach-hay",
@@ -64,6 +361,85 @@
     "banner": "assets/banners/sach-hay.webp",
     "bannerAvailable": true,
     "icon": "assets/icons/sach-hay.png",
-    "iconAvailable": true
+    "iconAvailable": true,
+    "slug": "sach-hay",
+    "detailUrl": "apps/sach-hay/",
+    "tagline": "Những trang sách, những góc nhìn mới",
+    "introduction": "Khám phá những cuốn sách đáng đọc và những câu chuyện ý nghĩa.",
+    "detail": {
+      "eyebrow": "TRẢI NGHIỆM",
+      "headline": "Mở một cuốn sách. Mở thêm một góc nhìn.",
+      "description": [
+        "Sách hay nên đọc trong đời mang đến một không gian khám phá sách, tri thức và những câu chuyện có ý nghĩa.",
+        "Dành một chút thời gian cho việc đọc và tìm cảm hứng cho những trang sách tiếp theo."
+      ],
+      "featuresTitle": "Gần hơn với những cuốn sách hay.",
+      "features": [
+        {
+          "icon": "book-open",
+          "title": "Khám phá sách hay",
+          "description": "Tìm cảm hứng từ những cuốn sách đáng đọc."
+        },
+        {
+          "icon": "book-text",
+          "title": "Những câu chuyện ý nghĩa",
+          "description": "Khám phá câu chuyện và những góc nhìn qua từng trang sách."
+        },
+        {
+          "icon": "sun",
+          "title": "Một khoảng lặng để đọc",
+          "description": "Dành thời gian cho sách trong nhịp sống hằng ngày."
+        }
+      ],
+      "screenshots": [
+        {
+          "src": "assets/screenshots/sach-hay/home.webp",
+          "label": "Sách chọn lọc hay nhất",
+          "alt": "Trang chủ Sách Hay với danh mục sách và những cuốn sách mới cập nhật.",
+          "width": 856,
+          "height": 1852
+        },
+        {
+          "src": "assets/screenshots/sach-hay/book-detail.webp",
+          "label": "Khám phá sách mới",
+          "alt": "Thông tin sách Hoàng tử bé với phần giới thiệu và nút tải sách.",
+          "width": 856,
+          "height": 1852
+        },
+        {
+          "src": "assets/screenshots/sach-hay/reader.webp",
+          "label": "Chế độ đọc linh hoạt",
+          "alt": "Tùy chỉnh kiểu chữ, khoảng cách dòng, màu nền và chế độ cuộn dọc.",
+          "width": 856,
+          "height": 1852
+        },
+        {
+          "src": "assets/screenshots/sach-hay/highlight.webp",
+          "label": "Highlight nhanh chóng",
+          "alt": "Màn hình đọc với đoạn văn được tô sáng và thanh công cụ chọn văn bản.",
+          "width": 856,
+          "height": 1852
+        },
+        {
+          "src": "assets/screenshots/sach-hay/library.webp",
+          "label": "Tự động lưu sách đang đọc",
+          "alt": "Thư viện Sách Hay hiển thị sách đang đọc và tiến độ đọc.",
+          "width": 856,
+          "height": 1852
+        }
+      ],
+      "screenshotSubjects": [
+        "Khám phá sách",
+        "Thông tin sách",
+        "Trải nghiệm đọc"
+      ],
+      "screenshotsTitle": "Khám phá ứng dụng",
+      "screenshotsDescription": "Một góc nhìn gần hơn về Sách hay nên đọc trong đời.",
+      "ctaTitle": "Cuốn sách tiếp theo đang chờ bạn.",
+      "ctaDescription": "Khám phá Sách hay nên đọc trong đời trên App Store.",
+      "screenshotPending": "Ảnh màn hình sẽ được bổ sung",
+      "featuresEyebrow": "CẢM HỨNG MỖI NGÀY",
+      "galleryLabel": "Ảnh màn hình ứng dụng, cuộn ngang"
+    }
   }
 ]

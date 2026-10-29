@@ -63,7 +63,21 @@ function render(apps) {
    link.setAttribute('aria-label', `${app.name} — ${link.getAttribute('aria-label')}`);
   });
   body.append(actions);
-  card.append(visual, body);
+  if (app.detailUrl && app.detail) {
+   const bannerLink = document.createElement('a');
+   bannerLink.href = app.detailUrl;
+   bannerLink.className = 'app-detail-link';
+   bannerLink.setAttribute('aria-label', `Explore ${app.name}`);
+   bannerLink.append(visual);
+   const heading = body.querySelector('h3');
+   const titleLink = document.createElement('a');
+   titleLink.href = app.detailUrl;
+   titleLink.textContent = app.name;
+   heading.replaceChildren(titleLink);
+   card.append(bannerLink, body);
+  } else {
+   card.append(visual, body);
+  }
   grid.append(card);
  });
 }
