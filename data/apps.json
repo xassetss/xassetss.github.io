@@ -1,7 +1,69 @@
 [
- {"id":"literary-room","name":"Literary Room","category":"READING & DISCOVERY","description":"A quiet home for timeless stories, classic novels and unforgettable characters.","symbol":"L","gradient":"linear-gradient(135deg,#77645b,#bda58b)","iosId":"1579218519","ios":"https://apps.apple.com/us/app/literary-room-classic-books/id1579218519","android":"https://play.google.com/store/apps/details?id=com.lupham.elvara","featured":true},
- {"id":"lullaby-room","name":"Lullaby Room","category":"SLEEP & FAMILY","description":"Gentle sounds and soothing lullabies for peaceful little nights.","symbol":"☾","gradient":"linear-gradient(135deg,#475f83,#a6a3c3)","iosId":"1505776935","ios":"https://apps.apple.com/us/app/lullaby-room-baby-sleep/id1505776935","android":"https://play.google.com/store/apps/details?id=com.cocoavn.lullaby","featured":true},
- {"id":"resonance-room","name":"Resonance Room","category":"WELLNESS & FOCUS","description":"A thoughtfully curated space for calming sounds, rest and focus.","symbol":"◉","gradient":"linear-gradient(135deg,#273954,#7e8da1)","iosId":"6823435047","ios":null,"android":"https://play.google.com/store/apps/details?id=com.lupham.wellness"},
- {"id":"coloring-book","name":"Coloring Book & Learn","category":"KIDS & CREATIVITY","description":"A playful world of colors, imagination and creative discovery.","symbol":"✿","gradient":"linear-gradient(135deg,#d98d91,#f1c98f)","iosId":"1463281240","ios":"https://apps.apple.com/us/app/coloring-book-learn/id1463281240","android":null},
- {"id":"sach-hay","name":"Sách hay nên đọc trong đời","category":"BOOKS & READING","description":"Khám phá những cuốn sách đáng đọc và những câu chuyện ý nghĩa.","symbol":"S","gradient":"linear-gradient(135deg,#4e847c,#b4c3a3)","iosId":"1530683610","ios":"https://apps.apple.com/us/app/id1530683610","android":null}
+  {
+    "id": "literary-room",
+    "name": "Literary Room",
+    "category": "READING & DISCOVERY",
+    "description": "A quiet home for timeless stories, classic novels and unforgettable characters.",
+    "symbol": "L",
+    "featured": true,
+    "appStoreUrl": "https://apps.apple.com/us/app/literary-room-classic-books/id1579218519",
+    "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.lupham.elvara",
+    "banner": "assets/banners/literary-room.webp",
+    "bannerAvailable": true,
+    "icon": "assets/icons/literary-room.png",
+    "iconAvailable": true
+  },
+  {
+    "id": "lullaby-room",
+    "name": "Lullaby Room",
+    "category": "SLEEP & FAMILY",
+    "description": "Gentle sounds and soothing lullabies for peaceful little nights.",
+    "symbol": "☾",
+    "featured": true,
+    "appStoreUrl": "https://apps.apple.com/us/app/lullaby-room-baby-sleep/id1505776935",
+    "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.cocoavn.lullaby",
+    "banner": "assets/banners/lullaby-room.webp",
+    "bannerAvailable": true,
+    "icon": "assets/icons/lullaby-room.png",
+    "iconAvailable": true
+  },
+  {
+    "id": "resonance-room",
+    "name": "Resonance Room",
+    "category": "WELLNESS & FOCUS",
+    "description": "A thoughtfully curated space for calming sounds, rest and focus.",
+    "symbol": "◉",
+    "appStoreUrl": null,
+    "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.lupham.wellness",
+    "banner": "assets/banners/resonance-room.webp",
+    "bannerAvailable": true,
+    "icon": "assets/icons/resonance-room.png",
+    "iconAvailable": true
+  },
+  {
+    "id": "coloring-book",
+    "name": "Coloring Book & Learn",
+    "category": "KIDS & CREATIVITY",
+    "description": "A playful world of colors, imagination and creative discovery.",
+    "symbol": "✿",
+    "appStoreUrl": "https://apps.apple.com/us/app/coloring-book-learn/id1463281240",
+    "googlePlayUrl": null,
+    "banner": "assets/banners/coloring-book.webp",
+    "bannerAvailable": true,
+    "icon": "assets/icons/coloring-book.png",
+    "iconAvailable": true
+  },
+  {
+    "id": "sach-hay",
+    "name": "Sách hay nên đọc trong đời",
+    "category": "BOOKS & READING",
+    "description": "Khám phá những cuốn sách đáng đọc và những câu chuyện ý nghĩa.",
+    "symbol": "S",
+    "appStoreUrl": "https://apps.apple.com/us/app/id1530683610",
+    "googlePlayUrl": null,
+    "banner": "assets/banners/sach-hay.webp",
+    "bannerAvailable": true,
+    "icon": "assets/icons/sach-hay.png",
+    "iconAvailable": true
+  }
 ]
