@@ -1,0 +1,16 @@
+# macOS metadata
+.DS_Store
+._*
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies (if Node.js tooling is added)
+node_modules/
+
+# Editor temporary files
+*.swp
+*.swo
+*~
