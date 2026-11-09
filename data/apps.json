@@ -308,39 +308,39 @@
       ],
       "screenshots": [
         {
-          "src": "assets/screenshots/coloring-book/elephant.webp",
-          "label": "Explore Colors",
-          "alt": "Elephant coloring page with a color palette and drawing tools.",
+          "src": "assets/screenshots/coloring-book/iphone-01.webp",
+          "label": "A Colorful World of Fun!",
+          "alt": "Coloring Book & Learn home screen with a puppy and buttons for coloring, learning colors, free drawing, and the art gallery.",
           "width": 1600,
-          "height": 739
+          "height": 736
         },
         {
-          "src": "assets/screenshots/coloring-book/airplane.webp",
-          "label": "Create Something Playful",
-          "alt": "Airplane coloring page with drawing tools and a color palette.",
+          "src": "assets/screenshots/coloring-book/iphone-02.webp",
+          "label": "So Many Pictures to Color!",
+          "alt": "Drawing picker with category tabs and a grid of animal outlines.",
           "width": 1600,
-          "height": 739
+          "height": 736
         },
         {
-          "src": "assets/screenshots/coloring-book/numbers.webp",
-          "label": "Learn Through Color",
-          "alt": "Number five and mushroom coloring activity.",
+          "src": "assets/screenshots/coloring-book/iphone-03.webp",
+          "label": "Bring Every Picture to Life!",
+          "alt": "A colored puppy drawing with brush settings and a color palette.",
           "width": 1600,
-          "height": 739
+          "height": 736
         },
         {
-          "src": "assets/screenshots/coloring-book/collections.webp",
-          "label": "Choose a Collection",
-          "alt": "Coloring collections featuring animals, shapes and marine life.",
+          "src": "assets/screenshots/coloring-book/iphone-04.webp",
+          "label": "Make Every Creation Special!",
+          "alt": "Sticker picker displaying nature stickers such as flowers, trees, and butterflies.",
           "width": 1600,
-          "height": 739
+          "height": 736
         },
         {
-          "src": "assets/screenshots/coloring-book/drawings.webp",
-          "label": "Choose a Drawing",
-          "alt": "Animal drawing selection with dog, mouse, bull, cat, pig and sheep outlines.",
+          "src": "assets/screenshots/coloring-book/iphone-05.webp",
+          "label": "Learn Colors Through Play!",
+          "alt": "Learn Colors screen with labeled color swatches.",
           "width": 1600,
-          "height": 739
+          "height": 736
         }
       ],
       "screenshotSubjects": [
@@ -354,7 +354,8 @@
       "ctaDescription": "Explore Coloring Book & Learn on the App Store.",
       "screenshotLayout": "landscape"
     },
-    "privacyPolicyUrl": null
+    "privacyPolicyUrl": "privacy/coloring-book/",
+    "termsOfUseUrl": "terms/coloring-book/"
   },
   {
     "id": "sach-hay",

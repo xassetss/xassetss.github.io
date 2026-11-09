@@ -77,26 +77,26 @@ The shared renderer now supports all five apps, with per-app section headings, s
 
 Each route has static canonical, description, OG and Twitter metadata, local artwork and a no-JavaScript store-link fallback. Introductory copy describes the established purpose of each app; no unverified timers, offline support, subscriptions or health outcomes are claimed.
 
-Lullaby Room now includes five developer-supplied screenshots (home, player, timer, mix and library), proportionally resized from 1206 × 2622 PNG to 852 × 1852 WebP at quality 90, without cropping. Resonance Room also includes five developer-supplied screenshots (home, sound detail, player, timer and welcome), resized proportionally from 1179 × 2556 PNG to 854 × 1852 WebP at quality 90 without cropping. Coloring Book & Learn includes five developer-supplied landscape screenshots, resized from 2688 × 1242 to 1600 × 739 WebP at quality 90 without cropping. Its data-driven landscape gallery shows two images on desktop and a partial next image on narrower screens. Sách Hay includes five developer-supplied screenshots (home, book detail, reader settings, highlight and library), resized proportionally from 1242 × 2688 to 856 × 1852 WebP at quality 90 without cropping. All five apps now have real screenshot galleries; no screenshot assets remain pending. Supply consistent portrait exports (recommended **1170 × 2532 px**, or the original native ratio); optimized WebP delivery around **856 × 1852 px** is sufficient for the current gallery. Suggested paths/subjects:
+Lullaby Room now includes five developer-supplied screenshots (home, player, timer, mix and library), proportionally resized from 1206 × 2622 PNG to 852 × 1852 WebP at quality 90, without cropping. Resonance Room also includes five developer-supplied screenshots (home, sound detail, player, timer and welcome), resized proportionally from 1179 × 2556 PNG to 854 × 1852 WebP at quality 90 without cropping. Coloring Book & Learn uses the official App Store 2.0.0 icon (512 × 512 PNG) and five iPhone screenshots in US storefront order (1600 × 736 WebP, uncropped). The landscape gallery shows two images on desktop and a partial next image on narrower screens. Sách Hay includes five developer-supplied screenshots (home, book detail, reader settings, highlight and library), resized proportionally from 1242 × 2688 to 856 × 1852 WebP at quality 90 without cropping. All five apps now have real screenshot galleries; no screenshot assets remain pending. Supply consistent portrait exports (recommended **1170 × 2532 px**, or the original native ratio); optimized WebP delivery around **856 × 1852 px** is sufficient for the current gallery. Suggested paths/subjects:
 
 | App | Expected files under `assets/screenshots/<app>/` |
 | --- | --- |
 | `lullaby-room` (supplied) | `home.webp`, `player.webp`, `timer.webp`, `mix.webp`, `library.webp` |
 | `resonance-room` (supplied) | `home.webp`, `sound-detail.webp`, `player.webp`, `timer.webp`, `welcome.webp` |
-| `coloring-book` (supplied) | `elephant.webp`, `airplane.webp`, `numbers.webp`, `collections.webp`, `drawings.webp` |
+| `coloring-book` (supplied) | `iphone-01.webp` through `iphone-05.webp` |
 | `sach-hay` (supplied) | `home.webp`, `book-detail.webp`, `reader.webp`, `highlight.webp`, `library.webp` |
 
 These subjects are suggestions for supplied assets, not product feature claims. Pending galleries request no nonexistent files. Add the real screenshots to the app’s `detail.screenshots` array, matching labels and alt text to the actual screens. All four social previews reuse the complete existing banners; optional 1200 × 630 compositions may be supplied later for precise social framing.
 
 ## Privacy Policy System V1
 
-Lullaby Room Privacy Policy and Terms of Use have been imported from the existing developer-supplied documents on 2026-10-29. The original effective date (October 23, 2026), introduction and full section contents are preserved. Literary Room Privacy Policy has also been imported from its developer-supplied source. Coloring Book & Learn and Sách Hay still require approved policy content. Resonance Room legal documents are imported as described below. These repository changes have not been deployed.
+Lullaby Room Privacy Policy and Terms of Use have been imported from the existing developer-supplied documents on 2026-10-29. The original effective date (October 23, 2026), introduction and full section contents are preserved. Literary Room Privacy Policy has also been imported from its developer-supplied source. Sách Hay still requires approved policy content. Coloring Book & Learn legal documents are imported as described below. Resonance Room legal documents are imported as described below. These repository changes have not been deployed.
 
 Files:
 
 - `templates/privacy.html.template`: reusable source template, not a published HTML entry point. It contains substitution tokens, no legal declarations. Policies are rendered as complete static HTML for store reviewers and crawlers; JavaScript is not required.
 - `privacy.css`: document layout scoped to privacy pages, reusing the existing design tokens and shared header/footer. The 850px outer container with existing 36px side padding provides a 778px reading area.
-- `data/apps.json`: optional `privacyPolicyUrl`, configured for Lullaby Room and Literary Room; null for the other apps; separate from policy text.
+- `data/apps.json`: optional `privacyPolicyUrl`, configured for Literary Room, Lullaby Room, Resonance Room and Coloring Book & Learn; null for Sách Hay; separate from policy text.
 - `app-detail.js` / `app-detail.css`: render an optional legal link only when a policy URL is explicitly configured; external HTTPS links open with `noopener noreferrer`. Existing marketing sections remain unchanged.
 
 ### Planned policy routes and status
@@ -106,7 +106,7 @@ Files:
 | Literary Room | `https://xassetss.github.io/privacy/literary-room/` | Imported from developer-supplied source |
 | Lullaby Room | `https://xassetss.github.io/privacy/lullaby-room/` | Imported from developer-supplied source |
 | Resonance Room | `https://xassetss.github.io/privacy/resonance-room/` | Imported from developer-supplied source |
-| Coloring Book & Learn | `https://xassetss.github.io/privacy/coloring-book/` | Approved content required |
+| Coloring Book & Learn | `https://xassetss.github.io/privacy/coloring-book/` | Imported from developer-supplied source |
 | Sách Hay | `https://xassetss.github.io/privacy/sach-hay/` | Approved content required |
 
 ### Prepare and publish an approved policy
@@ -142,3 +142,8 @@ For **each app separately**, supply approved policy text and any existing regist
 Imported [Privacy Policy](https://sunshinesing.github.io/resonance_room_privacy_policy.html) and [Terms of Use](https://sunshinesing.github.io/resonance_room_terms_of_use.html) into `privacy/resonance-room/index.html` and `terms/resonance-room/index.html`. Full source content and effective date October 19, 2026 are retained in static HTML. The terms' relative policy link is repaired to the local policy route; the now-resolved deployment instruction to update that link is removed. App Detail links point internally and store console URLs are untouched.
 
 Source issue requiring developer attention: Terms section 12 still states that the developer's legal jurisdiction should be confirmed before publication. This wording is preserved, with no jurisdiction invented. The privacy source also uses conditional wording about analytics/diagnostic integrations; no SDK declarations are added or inferred. Shared site contact is `xassets.info@gmail.com`. Changes have not been deployed.
+
+
+### Coloring Book & Learn legal documents
+
+The [Privacy Policy](https://xassetss.github.io/coloring-book-learn/privacy-policy.html) and [Terms of Use](https://xassetss.github.io/coloring-book-learn/term-of-use.html) are imported into `privacy/coloring-book/index.html` and `terms/coloring-book/index.html`. Both retain their full text and November 8, 2026 update date. The Terms link to the local Privacy Policy. The app detail page links to both local documents, and the original URLs remain unchanged.
