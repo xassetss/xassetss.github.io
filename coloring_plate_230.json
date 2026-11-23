@@ -1,0 +1,798 @@
+{
+  "schemaVersion": 1,
+  "collections": {
+    "unicorns": "1_fairy_tale_palette",
+    "princesses": "1_fairy_tale_palette",
+    "easter": "1_fairy_tale_palette",
+    "wild_animals": "2_nature_safari_palette",
+    "dinosaurs": "2_nature_safari_palette",
+    "bugs_insects": "2_nature_safari_palette",
+    "birds": "2_nature_safari_palette",
+    "ocean_animals": "3_ocean_farm_vehicles",
+    "farm_animals": "3_ocean_farm_vehicles",
+    "vehicles": "3_ocean_farm_vehicles",
+    "fruits": "4_learning_fruits",
+    "alphabet": "4_learning_fruits",
+    "numbers": "4_learning_fruits",
+    "christmas": "5_festivals_palette",
+    "halloween": "5_festivals_palette"
+  },
+  "palettes": {
+    "1_fairy_tale_palette": {
+      "applicableThemes": [
+        "Kỳ lân",
+        "Công chúa",
+        "Lễ Phục Sinh"
+      ],
+      "colors": [
+        {
+          "nameKey": "theme_1_fairy_tale_palette_1",
+          "name": "Princess Pink",
+          "hex": "#FF77B7",
+          "description": "Hồng công chúa, váy và nơ"
+        },
+        {
+          "nameKey": "theme_1_fairy_tale_palette_2",
+          "name": "Bubblegum Pink",
+          "hex": "#FFB1D5",
+          "description": "Hồng kẹo ngọt sáng"
+        },
+        {
+          "nameKey": "theme_1_fairy_tale_palette_3",
+          "name": "Rose Red",
+          "hex": "#F64C79",
+          "description": "Đỏ hồng trái tim"
+        },
+        {
+          "nameKey": "theme_1_fairy_tale_palette_4",
+          "name": "Peach Blush",
+          "hex": "#FFC7AC",
+          "description": "Đào ấm cho khuôn mặt"
+        },
+        {
+          "nameKey": "theme_1_fairy_tale_palette_5",
+          "name": "Lilac",
+          "hex": "#D7B5FF",
+          "description": "Tím hoa dịu"
+        },
+        {
+          "nameKey": "theme_1_fairy_tale_palette_6",
+          "name": "Magic Violet",
+          "hex": "#A56CF4",
+          "description": "Tím phép thuật rực rỡ"
+        },
+        {
+          "nameKey": "theme_1_fairy_tale_palette_7",
+          "name": "Royal Purple",
+          "hex": "#7045B7",
+          "description": "Tím hoàng gia đậm"
+        },
+        {
+          "nameKey": "theme_1_fairy_tale_palette_8",
+          "name": "Periwinkle",
+          "hex": "#A5B6FF",
+          "description": "Xanh tím dịu"
+        },
+        {
+          "nameKey": "theme_1_fairy_tale_palette_9",
+          "name": "Ice Blue",
+          "hex": "#B9EEFF",
+          "description": "Xanh băng sáng"
+        },
+        {
+          "nameKey": "theme_1_fairy_tale_palette_10",
+          "name": "Fairy Blue",
+          "hex": "#64C7FF",
+          "description": "Xanh tiên nữ"
+        },
+        {
+          "nameKey": "theme_1_fairy_tale_palette_11",
+          "name": "Sapphire",
+          "hex": "#4586E8",
+          "description": "Xanh ngọc đậm"
+        },
+        {
+          "nameKey": "theme_1_fairy_tale_palette_12",
+          "name": "Mint",
+          "hex": "#A7F2D2",
+          "description": "Bạc hà dịu"
+        },
+        {
+          "nameKey": "theme_1_fairy_tale_palette_13",
+          "name": "Jade",
+          "hex": "#46C6A2",
+          "description": "Ngọc xanh tươi"
+        },
+        {
+          "nameKey": "theme_1_fairy_tale_palette_14",
+          "name": "Butter Yellow",
+          "hex": "#FFF1A3",
+          "description": "Vàng kem dịu"
+        },
+        {
+          "nameKey": "theme_1_fairy_tale_palette_15",
+          "name": "Sunshine",
+          "hex": "#FFD84A",
+          "description": "Vàng nắng rực"
+        },
+        {
+          "nameKey": "theme_1_fairy_tale_palette_16",
+          "name": "Crown Gold",
+          "hex": "#E9A83D",
+          "description": "Vàng vương miện"
+        },
+        {
+          "nameKey": "theme_1_fairy_tale_palette_17",
+          "name": "Apricot",
+          "hex": "#FFB875",
+          "description": "Cam mơ"
+        },
+        {
+          "nameKey": "theme_1_fairy_tale_palette_18",
+          "name": "Coral",
+          "hex": "#FF8B88",
+          "description": "San hô tươi"
+        },
+        {
+          "nameKey": "theme_1_fairy_tale_palette_19",
+          "name": "Cream",
+          "hex": "#FFF4DE",
+          "description": "Kem sáng"
+        },
+        {
+          "nameKey": "theme_1_fairy_tale_palette_20",
+          "name": "Snow White",
+          "hex": "#FFFFFF",
+          "description": "Trắng tuyết"
+        },
+        {
+          "nameKey": "theme_1_fairy_tale_palette_21",
+          "name": "Silver",
+          "hex": "#CAD9E7",
+          "description": "Bạc ánh xanh"
+        },
+        {
+          "nameKey": "theme_1_fairy_tale_palette_22",
+          "name": "Chestnut",
+          "hex": "#98684D",
+          "description": "Nâu tóc"
+        },
+        {
+          "nameKey": "theme_1_fairy_tale_palette_23",
+          "name": "Berry Plum",
+          "hex": "#9E497D",
+          "description": "Mận đậm"
+        },
+        {
+          "nameKey": "theme_1_fairy_tale_palette_24",
+          "name": "Soft Charcoal",
+          "hex": "#424052",
+          "description": "Đen tím dịu"
+        }
+      ],
+      "designLogic": "24 màu: màu nhận diện chủ đề rõ, màu tươi để tô chủ thể, sắc sáng/đậm bổ trợ và màu trung tính; ưu tiên màu dễ phân biệt trên tranh nét đen."
+    },
+    "2_nature_safari_palette": {
+      "applicableThemes": [
+        "Động vật hoang dã",
+        "Khủng long",
+        "Côn trùng",
+        "Chim chóc"
+      ],
+      "colors": [
+        {
+          "nameKey": "theme_2_nature_safari_palette_1",
+          "name": "Frog Green",
+          "hex": "#72D84A",
+          "description": "Ếch, khủng long"
+        },
+        {
+          "nameKey": "theme_2_nature_safari_palette_2",
+          "name": "Leaf Green",
+          "hex": "#43B96B",
+          "description": "Lá và thân cây"
+        },
+        {
+          "nameKey": "theme_2_nature_safari_palette_3",
+          "name": "Jungle Green",
+          "hex": "#25875C",
+          "description": "Tán rừng đậm"
+        },
+        {
+          "nameKey": "theme_2_nature_safari_palette_4",
+          "name": "Lime",
+          "hex": "#B7EB57",
+          "description": "Lá non"
+        },
+        {
+          "nameKey": "theme_2_nature_safari_palette_5",
+          "name": "Moss",
+          "hex": "#819B48",
+          "description": "Rêu và mai rùa"
+        },
+        {
+          "nameKey": "theme_2_nature_safari_palette_6",
+          "name": "Sky Blue",
+          "hex": "#83D8FF",
+          "description": "Bầu trời"
+        },
+        {
+          "nameKey": "theme_2_nature_safari_palette_7",
+          "name": "River Blue",
+          "hex": "#39A9E8",
+          "description": "Sông suối"
+        },
+        {
+          "nameKey": "theme_2_nature_safari_palette_8",
+          "name": "Turquoise",
+          "hex": "#4CC9BE",
+          "description": "Cánh chim, chuồn chuồn"
+        },
+        {
+          "nameKey": "theme_2_nature_safari_palette_9",
+          "name": "Sun Yellow",
+          "hex": "#FFE15B",
+          "description": "Chim non, nắng"
+        },
+        {
+          "nameKey": "theme_2_nature_safari_palette_10",
+          "name": "Golden Ochre",
+          "hex": "#E8B34D",
+          "description": "Sư tử, hươu"
+        },
+        {
+          "nameKey": "theme_2_nature_safari_palette_11",
+          "name": "Tiger Orange",
+          "hex": "#FF983D",
+          "description": "Hổ, chim nhiệt đới"
+        },
+        {
+          "nameKey": "theme_2_nature_safari_palette_12",
+          "name": "Coral Red",
+          "hex": "#F56860",
+          "description": "Mào chim, bọ rùa"
+        },
+        {
+          "nameKey": "theme_2_nature_safari_palette_13",
+          "name": "Berry Pink",
+          "hex": "#F78EAF",
+          "description": "Hoa, má hồng"
+        },
+        {
+          "nameKey": "theme_2_nature_safari_palette_14",
+          "name": "Butterfly Purple",
+          "hex": "#B07AE8",
+          "description": "Cánh bướm"
+        },
+        {
+          "nameKey": "theme_2_nature_safari_palette_15",
+          "name": "Lavender",
+          "hex": "#D7B7F5",
+          "description": "Tím nhạt"
+        },
+        {
+          "nameKey": "theme_2_nature_safari_palette_16",
+          "name": "Teddy Brown",
+          "hex": "#B9835D",
+          "description": "Gấu, thú rừng"
+        },
+        {
+          "nameKey": "theme_2_nature_safari_palette_17",
+          "name": "Earth Brown",
+          "hex": "#885B40",
+          "description": "Thân cây, lông thú"
+        },
+        {
+          "nameKey": "theme_2_nature_safari_palette_18",
+          "name": "Deep Cocoa",
+          "hex": "#563F36",
+          "description": "Chi tiết tối"
+        },
+        {
+          "nameKey": "theme_2_nature_safari_palette_19",
+          "name": "Sand",
+          "hex": "#F1D7A7",
+          "description": "Cát, lông sáng"
+        },
+        {
+          "nameKey": "theme_2_nature_safari_palette_20",
+          "name": "Cream",
+          "hex": "#FFF1D5",
+          "description": "Bụng thú, lông"
+        },
+        {
+          "nameKey": "theme_2_nature_safari_palette_21",
+          "name": "Elephant Gray",
+          "hex": "#98A5AF",
+          "description": "Voi, tê giác"
+        },
+        {
+          "nameKey": "theme_2_nature_safari_palette_22",
+          "name": "Koala Gray",
+          "hex": "#CED6DC",
+          "description": "Gấu koala"
+        },
+        {
+          "nameKey": "theme_2_nature_safari_palette_23",
+          "name": "White",
+          "hex": "#FFFFFF",
+          "description": "Trắng mắt, chi tiết"
+        },
+        {
+          "nameKey": "theme_2_nature_safari_palette_24",
+          "name": "Charcoal",
+          "hex": "#41444B",
+          "description": "Mắt, mũi, viền"
+        }
+      ],
+      "designLogic": "24 màu: màu nhận diện chủ đề rõ, màu tươi để tô chủ thể, sắc sáng/đậm bổ trợ và màu trung tính; ưu tiên màu dễ phân biệt trên tranh nét đen."
+    },
+    "3_ocean_farm_vehicles": {
+      "applicableThemes": [
+        "Động vật biển",
+        "Động vật nông trại",
+        "Phương tiện giao thông"
+      ],
+      "colors": [
+        {
+          "nameKey": "theme_3_ocean_farm_vehicles_1",
+          "name": "Ocean Blue",
+          "hex": "#278FE6",
+          "description": "Nước biển, cá"
+        },
+        {
+          "nameKey": "theme_3_ocean_farm_vehicles_2",
+          "name": "Lagoon Blue",
+          "hex": "#58C6F4",
+          "description": "Biển sáng"
+        },
+        {
+          "nameKey": "theme_3_ocean_farm_vehicles_3",
+          "name": "Sky Blue",
+          "hex": "#A8E5FF",
+          "description": "Bầu trời"
+        },
+        {
+          "nameKey": "theme_3_ocean_farm_vehicles_4",
+          "name": "Deep Navy",
+          "hex": "#325A9E",
+          "description": "Tàu, nước sâu"
+        },
+        {
+          "nameKey": "theme_3_ocean_farm_vehicles_5",
+          "name": "Aqua",
+          "hex": "#4DD9D0",
+          "description": "Nước và sinh vật biển"
+        },
+        {
+          "nameKey": "theme_3_ocean_farm_vehicles_6",
+          "name": "Seafoam",
+          "hex": "#A8F1DB",
+          "description": "Sóng, bong bóng"
+        },
+        {
+          "nameKey": "theme_3_ocean_farm_vehicles_7",
+          "name": "Seaweed Green",
+          "hex": "#3EAD73",
+          "description": "Rong biển"
+        },
+        {
+          "nameKey": "theme_3_ocean_farm_vehicles_8",
+          "name": "Grass Green",
+          "hex": "#7DD353",
+          "description": "Đồng cỏ, máy kéo"
+        },
+        {
+          "nameKey": "theme_3_ocean_farm_vehicles_9",
+          "name": "Sunny Yellow",
+          "hex": "#FFE052",
+          "description": "Vịt, xe buýt"
+        },
+        {
+          "nameKey": "theme_3_ocean_farm_vehicles_10",
+          "name": "Taxi Gold",
+          "hex": "#F9B83D",
+          "description": "Xe taxi, cát"
+        },
+        {
+          "nameKey": "theme_3_ocean_farm_vehicles_11",
+          "name": "Traffic Orange",
+          "hex": "#FF923D",
+          "description": "Xe công trình"
+        },
+        {
+          "nameKey": "theme_3_ocean_farm_vehicles_12",
+          "name": "Firetruck Red",
+          "hex": "#F34F56",
+          "description": "Xe cứu hỏa"
+        },
+        {
+          "nameKey": "theme_3_ocean_farm_vehicles_13",
+          "name": "Coral Pink",
+          "hex": "#FF8E96",
+          "description": "San hô, sinh vật biển"
+        },
+        {
+          "nameKey": "theme_3_ocean_farm_vehicles_14",
+          "name": "Piggy Pink",
+          "hex": "#FFB6C9",
+          "description": "Heo con"
+        },
+        {
+          "nameKey": "theme_3_ocean_farm_vehicles_15",
+          "name": "Lavender",
+          "hex": "#BEA4F2",
+          "description": "Sao biển, cá"
+        },
+        {
+          "nameKey": "theme_3_ocean_farm_vehicles_16",
+          "name": "Tractor Teal",
+          "hex": "#42B9A3",
+          "description": "Máy kéo, tàu"
+        },
+        {
+          "nameKey": "theme_3_ocean_farm_vehicles_17",
+          "name": "Barn Brown",
+          "hex": "#B47A55",
+          "description": "Chuồng trại"
+        },
+        {
+          "nameKey": "theme_3_ocean_farm_vehicles_18",
+          "name": "Wood Brown",
+          "hex": "#80583F",
+          "description": "Hàng rào, bánh xe"
+        },
+        {
+          "nameKey": "theme_3_ocean_farm_vehicles_19",
+          "name": "Wheat",
+          "hex": "#F1D5A0",
+          "description": "Rơm, cát"
+        },
+        {
+          "nameKey": "theme_3_ocean_farm_vehicles_20",
+          "name": "Milk Cream",
+          "hex": "#FFF2DE",
+          "description": "Bò, cừu"
+        },
+        {
+          "nameKey": "theme_3_ocean_farm_vehicles_21",
+          "name": "Steel Gray",
+          "hex": "#98A7B8",
+          "description": "Kim loại"
+        },
+        {
+          "nameKey": "theme_3_ocean_farm_vehicles_22",
+          "name": "Silver",
+          "hex": "#D6E0E8",
+          "description": "Kính, máy móc"
+        },
+        {
+          "nameKey": "theme_3_ocean_farm_vehicles_23",
+          "name": "White",
+          "hex": "#FFFFFF",
+          "description": "Mây, bọt biển"
+        },
+        {
+          "nameKey": "theme_3_ocean_farm_vehicles_24",
+          "name": "Tire Black",
+          "hex": "#3C4550",
+          "description": "Bánh xe, mắt"
+        }
+      ],
+      "style": "24 màu: màu nhận diện chủ đề rõ, màu tươi để tô chủ thể, sắc sáng/đậm bổ trợ và màu trung tính; ưu tiên màu dễ phân biệt trên tranh nét đen.",
+      "designLogic": "24 màu: màu nhận diện chủ đề rõ, màu tươi để tô chủ thể, sắc sáng/đậm bổ trợ và màu trung tính; ưu tiên màu dễ phân biệt trên tranh nét đen."
+    },
+    "4_learning_fruits": {
+      "applicableThemes": [
+        "Trái cây",
+        "Bảng chữ cái",
+        "Bảng số"
+      ],
+      "colors": [
+        {
+          "nameKey": "theme_4_learning_fruits_1",
+          "name": "Apple Red",
+          "hex": "#F44350",
+          "description": "Táo, dâu, chữ đỏ"
+        },
+        {
+          "nameKey": "theme_4_learning_fruits_2",
+          "name": "Cherry Red",
+          "hex": "#CB304C",
+          "description": "Anh đào đậm"
+        },
+        {
+          "nameKey": "theme_4_learning_fruits_3",
+          "name": "Strawberry Pink",
+          "hex": "#FF78A6",
+          "description": "Dâu tây, hồng"
+        },
+        {
+          "nameKey": "theme_4_learning_fruits_4",
+          "name": "Peach",
+          "hex": "#FFB5A0",
+          "description": "Đào, da quả"
+        },
+        {
+          "nameKey": "theme_4_learning_fruits_5",
+          "name": "Orange",
+          "hex": "#FF9433",
+          "description": "Cam, quýt"
+        },
+        {
+          "nameKey": "theme_4_learning_fruits_6",
+          "name": "Mango",
+          "hex": "#FFC04A",
+          "description": "Xoài, vàng cam"
+        },
+        {
+          "nameKey": "theme_4_learning_fruits_7",
+          "name": "Banana Yellow",
+          "hex": "#FFE34C",
+          "description": "Chuối, chanh"
+        },
+        {
+          "nameKey": "theme_4_learning_fruits_8",
+          "name": "Lemon Cream",
+          "hex": "#FFF4A5",
+          "description": "Vàng nhạt"
+        },
+        {
+          "nameKey": "theme_4_learning_fruits_9",
+          "name": "Lime Green",
+          "hex": "#B8E45B",
+          "description": "Chanh xanh"
+        },
+        {
+          "nameKey": "theme_4_learning_fruits_10",
+          "name": "Apple Green",
+          "hex": "#66CB55",
+          "description": "Táo xanh"
+        },
+        {
+          "nameKey": "theme_4_learning_fruits_11",
+          "name": "Leaf Green",
+          "hex": "#2CA66B",
+          "description": "Lá, vỏ dưa"
+        },
+        {
+          "nameKey": "theme_4_learning_fruits_12",
+          "name": "Mint",
+          "hex": "#9CE9C7",
+          "description": "Xanh bạc hà"
+        },
+        {
+          "nameKey": "theme_4_learning_fruits_13",
+          "name": "Sky Blue",
+          "hex": "#80D5FF",
+          "description": "Chữ và số"
+        },
+        {
+          "nameKey": "theme_4_learning_fruits_14",
+          "name": "Bright Blue",
+          "hex": "#3D9AEB",
+          "description": "Xanh dương tươi"
+        },
+        {
+          "nameKey": "theme_4_learning_fruits_15",
+          "name": "Blueberry",
+          "hex": "#596DBD",
+          "description": "Việt quất"
+        },
+        {
+          "nameKey": "theme_4_learning_fruits_16",
+          "name": "Grape Purple",
+          "hex": "#9A63D6",
+          "description": "Nho"
+        },
+        {
+          "nameKey": "theme_4_learning_fruits_17",
+          "name": "Plum",
+          "hex": "#75439F",
+          "description": "Mận đậm"
+        },
+        {
+          "nameKey": "theme_4_learning_fruits_18",
+          "name": "Candy Pink",
+          "hex": "#F6A5D6",
+          "description": "Hồng kẹo"
+        },
+        {
+          "nameKey": "theme_4_learning_fruits_19",
+          "name": "Watermelon Coral",
+          "hex": "#F96D71",
+          "description": "Ruột dưa"
+        },
+        {
+          "nameKey": "theme_4_learning_fruits_20",
+          "name": "Kiwi Brown",
+          "hex": "#A87A50",
+          "description": "Vỏ kiwi"
+        },
+        {
+          "nameKey": "theme_4_learning_fruits_21",
+          "name": "Coconut Brown",
+          "hex": "#79513F",
+          "description": "Vỏ dừa"
+        },
+        {
+          "nameKey": "theme_4_learning_fruits_22",
+          "name": "Vanilla",
+          "hex": "#FFF0D6",
+          "description": "Kem, ruột trái cây"
+        },
+        {
+          "nameKey": "theme_4_learning_fruits_23",
+          "name": "White",
+          "hex": "#FFFFFF",
+          "description": "Trắng, chữ sáng"
+        },
+        {
+          "nameKey": "theme_4_learning_fruits_24",
+          "name": "Ink",
+          "hex": "#424451",
+          "description": "Hạt, chi tiết tối"
+        }
+      ],
+      "designLogic": "24 màu: màu nhận diện chủ đề rõ, màu tươi để tô chủ thể, sắc sáng/đậm bổ trợ và màu trung tính; ưu tiên màu dễ phân biệt trên tranh nét đen."
+    },
+    "5_festivals_palette": {
+      "applicableThemes": [
+        "Giáng sinh",
+        "Halloween"
+      ],
+      "colors": [
+        {
+          "nameKey": "theme_5_festivals_palette_1",
+          "name": "Santa Red",
+          "hex": "#ED4653",
+          "description": "Áo ông già Noel"
+        },
+        {
+          "nameKey": "theme_5_festivals_palette_2",
+          "name": "Candy Cane",
+          "hex": "#FF8995",
+          "description": "Kẹo gậy"
+        },
+        {
+          "nameKey": "theme_5_festivals_palette_3",
+          "name": "Cranberry",
+          "hex": "#B93453",
+          "description": "Đỏ quả mọng"
+        },
+        {
+          "nameKey": "theme_5_festivals_palette_4",
+          "name": "Pine Green",
+          "hex": "#25865C",
+          "description": "Cây thông"
+        },
+        {
+          "nameKey": "theme_5_festivals_palette_5",
+          "name": "Holly Green",
+          "hex": "#4EC77B",
+          "description": "Lá tầm gửi"
+        },
+        {
+          "nameKey": "theme_5_festivals_palette_6",
+          "name": "Snow Mint",
+          "hex": "#B8EED9",
+          "description": "Xanh tuyết dịu"
+        },
+        {
+          "nameKey": "theme_5_festivals_palette_7",
+          "name": "Star Gold",
+          "hex": "#FFD54B",
+          "description": "Sao Giáng sinh"
+        },
+        {
+          "nameKey": "theme_5_festivals_palette_8",
+          "name": "Candle Yellow",
+          "hex": "#FFF1A3",
+          "description": "Ánh nến"
+        },
+        {
+          "nameKey": "theme_5_festivals_palette_9",
+          "name": "Pumpkin Orange",
+          "hex": "#FF922F",
+          "description": "Bí ngô Halloween"
+        },
+        {
+          "nameKey": "theme_5_festivals_palette_10",
+          "name": "Harvest Orange",
+          "hex": "#F6B45A",
+          "description": "Cam ấm"
+        },
+        {
+          "nameKey": "theme_5_festivals_palette_11",
+          "name": "Witch Purple",
+          "hex": "#8049B4",
+          "description": "Mũ phù thủy"
+        },
+        {
+          "nameKey": "theme_5_festivals_palette_12",
+          "name": "Magic Lilac",
+          "hex": "#C6A2F3",
+          "description": "Phép thuật"
+        },
+        {
+          "nameKey": "theme_5_festivals_palette_13",
+          "name": "Midnight Blue",
+          "hex": "#394D88",
+          "description": "Bầu trời đêm"
+        },
+        {
+          "nameKey": "theme_5_festivals_palette_14",
+          "name": "Frost Blue",
+          "hex": "#A8E2FA",
+          "description": "Băng tuyết"
+        },
+        {
+          "nameKey": "theme_5_festivals_palette_15",
+          "name": "Ice Silver",
+          "hex": "#D7E7F1",
+          "description": "Tuyết và kim loại"
+        },
+        {
+          "nameKey": "theme_5_festivals_palette_16",
+          "name": "Ghost White",
+          "hex": "#FFFFFF",
+          "description": "Bóng ma, tuyết"
+        },
+        {
+          "nameKey": "theme_5_festivals_palette_17",
+          "name": "Gingerbread",
+          "hex": "#BC8356",
+          "description": "Bánh gừng"
+        },
+        {
+          "nameKey": "theme_5_festivals_palette_18",
+          "name": "Cookie Cream",
+          "hex": "#FFE1B9",
+          "description": "Bánh quy"
+        },
+        {
+          "nameKey": "theme_5_festivals_palette_19",
+          "name": "Chocolate",
+          "hex": "#80533F",
+          "description": "Socola, thân cây"
+        },
+        {
+          "nameKey": "theme_5_festivals_palette_20",
+          "name": "Ribbon Pink",
+          "hex": "#F78EB8",
+          "description": "Nơ, quà"
+        },
+        {
+          "nameKey": "theme_5_festivals_palette_21",
+          "name": "Potion Lime",
+          "hex": "#B9E65A",
+          "description": "Thuốc phép"
+        },
+        {
+          "nameKey": "theme_5_festivals_palette_22",
+          "name": "Bat Charcoal",
+          "hex": "#424252",
+          "description": "Dơi, mắt"
+        },
+        {
+          "nameKey": "theme_5_festivals_palette_23",
+          "name": "Moon Glow",
+          "hex": "#F8E7B5",
+          "description": "Trăng, đèn"
+        },
+        {
+          "nameKey": "theme_5_festivals_palette_24",
+          "name": "Sparkle Teal",
+          "hex": "#4FC6BE",
+          "description": "Dây ruy băng"
+        }
+      ],
+      "designLogic": "24 màu: màu nhận diện chủ đề rõ, màu tươi để tô chủ thể, sắc sáng/đậm bổ trợ và màu trung tính; ưu tiên màu dễ phân biệt trên tranh nét đen."
+    }
+  },
+  "paletteVersion": "2.0",
+  "notes": {
+    "vi": "Bảng màu tối ưu cho tranh tô màu trẻ em; 24 màu mỗi palette. Thứ tự ưu tiên màu phổ biến trước. Giữ nguyên collection IDs và palette IDs.",
+    "integration": "Các nameKey được chuẩn hóa theo thứ tự 1..24; cần cập nhật localization nếu ứng dụng dùng nameKey làm khóa hiển thị. Không dùng các màu này làm chuẩn cho bài học nhận biết 10 màu cơ bản."
+  }
+}
